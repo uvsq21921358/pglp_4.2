@@ -4,7 +4,7 @@ public class ArgumentPileException extends IllegalArgumentException {
 
 	public ArgumentPileException() {
 
-		super("Pas assez d'éléments dans la pile pour cette opération!!!");
+		super("Votre file ne contient pas assez d'éléments pour cette opération!!");
 
 	}
 }

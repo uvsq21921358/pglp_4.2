@@ -4,7 +4,7 @@ public class DivisionParZeroException extends ArithmeticException {
 
 	public DivisionParZeroException() {
 
-		super("Division par zéro");
+		super("Division par zéro impossible!!!");
 
 	}
 }

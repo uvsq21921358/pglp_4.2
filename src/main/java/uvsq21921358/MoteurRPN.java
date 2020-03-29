@@ -36,7 +36,6 @@ public class MoteurRPN extends Interpreteur {
 	}
 
 	public void appliquerOperation(Operation renvoieOperation) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 	}
 }

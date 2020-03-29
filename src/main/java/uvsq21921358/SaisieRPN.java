@@ -33,7 +33,7 @@ public class SaisieRPN {
 
 		while(moteur.isOn()) {
 
-			System.out.println("Saisir un entier, une opération ou exit pour sortir, puis taper sur entrée");
+			System.out.println("Veuillez saisir un entier, une opération ou exit pour sortir, puis tapez sur la touche entrée");
 			try {
 				input = scanneLigne();
 				str += input + " ";
@@ -44,7 +44,7 @@ public class SaisieRPN {
 			}
 			System.out.println(moteur.afficherPile());
 		}
-		System.out.println("Fin du programme");
+		System.out.println(" Fin d'execution!!! ");
 		this.closeScanner();    
 		
 	}

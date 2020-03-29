@@ -4,7 +4,7 @@ public class MinMaxException extends ArithmeticException{
 
 	public MinMaxException() {
 
-		super("Valeur absolue trop grande pour être gérée");
+		super("La valeur saisie est trop grande !!!");
 
 	}
 }
